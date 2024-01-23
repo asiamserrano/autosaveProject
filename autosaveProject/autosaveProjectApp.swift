@@ -8,6 +8,11 @@
 import SwiftUI
 import SwiftData
 
+public let appScreenWidth: CGFloat = UIScreen.main.bounds.width
+public let appScreenHeight: CGFloat = UIScreen.main.bounds.height
+public let appDefaultColor: Color = .blue
+public let appSecondaryColor: Color = .pink
+
 @main
 struct autosaveProjectApp: App {
     var sharedModelContainer: ModelContainer = {
