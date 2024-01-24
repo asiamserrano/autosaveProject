@@ -12,6 +12,36 @@
 		1EC716BB2B606A4F006AB2C5 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC716BA2B606A4F006AB2C5 /* Item.swift */; };
 		1EC716BD2B606A52006AB2C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EC716BC2B606A52006AB2C5 /* Assets.xcassets */; };
 		1EC716C02B606A52006AB2C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EC716BF2B606A52006AB2C5 /* Preview Assets.xcassets */; };
+		1EC716D62B606C87006AB2C5 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC716D22B606C86006AB2C5 /* Date+Extension.swift */; };
+		1EC716D72B606C87006AB2C5 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC716D32B606C87006AB2C5 /* String+Extension.swift */; };
+		1EC716D82B606C87006AB2C5 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC716D42B606C87006AB2C5 /* View+Extension.swift */; };
+		1EC716D92B606C87006AB2C5 /* ModelContainer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC716D52B606C87006AB2C5 /* ModelContainer+Extension.swift */; };
+		1EC716DB2B606CAB006AB2C5 /* IconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC716DA2B606CAB006AB2C5 /* IconView.swift */; };
+		1EC716E02B60750C006AB2C5 /* Italicized+Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC716DE2B60750B006AB2C5 /* Italicized+Modifier.swift */; };
+		1EC716E12B60750C006AB2C5 /* Hide+Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC716DF2B60750C006AB2C5 /* Hide+Modifier.swift */; };
+		1EC716E32B6075C6006AB2C5 /* Id+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC716E22B6075C6006AB2C5 /* Id+Protocol.swift */; };
+		1EC716E52B6075FF006AB2C5 /* Enum+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC716E42B6075FF006AB2C5 /* Enum+Protocol.swift */; };
+		1EC716E72B60762D006AB2C5 /* Pair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC716E62B60762D006AB2C5 /* Pair.swift */; };
+		1EC716F72B607713006AB2C5 /* Game+Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC716E92B607713006AB2C5 /* Game+Enum.swift */; };
+		1EC716F82B607713006AB2C5 /* Input+Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC716EA2B607713006AB2C5 /* Input+Enum.swift */; };
+		1EC716F92B607713006AB2C5 /* Menu+Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC716EB2B607713006AB2C5 /* Menu+Enum.swift */; };
+		1EC716FA2B607713006AB2C5 /* Format+Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC716EC2B607713006AB2C5 /* Format+Enum.swift */; };
+		1EC716FB2B607713006AB2C5 /* PlayStation+Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC716EE2B607713006AB2C5 /* PlayStation+Enum.swift */; };
+		1EC716FC2B607713006AB2C5 /* Xbox+Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC716EF2B607713006AB2C5 /* Xbox+Enum.swift */; };
+		1EC716FD2B607713006AB2C5 /* Nintendo+Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC716F02B607713006AB2C5 /* Nintendo+Enum.swift */; };
+		1EC716FE2B607713006AB2C5 /* OS+Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC716F12B607713006AB2C5 /* OS+Enum.swift */; };
+		1EC716FF2B607713006AB2C5 /* Platform+Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC716F22B607713006AB2C5 /* Platform+Enum.swift */; };
+		1EC717002B607713006AB2C5 /* Digital+Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC716F42B607713006AB2C5 /* Digital+Enum.swift */; };
+		1EC717012B607713006AB2C5 /* Physical+Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC716F52B607713006AB2C5 /* Physical+Enum.swift */; };
+		1EC717022B607713006AB2C5 /* Mode+Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC716F62B607713006AB2C5 /* Mode+Enum.swift */; };
+		1EC717042B6077FA006AB2C5 /* PropertyBuilder+Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC717032B6077FA006AB2C5 /* PropertyBuilder+Enum.swift */; };
+		1EC717062B607B3D006AB2C5 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC717052B607B3D006AB2C5 /* Property.swift */; };
+		1EC717082B609031006AB2C5 /* Platform+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC717072B609031006AB2C5 /* Platform+Protocol.swift */; };
+		1EC7170A2B6090B4006AB2C5 /* PlatformBuilder+Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC717092B6090B4006AB2C5 /* PlatformBuilder+Enum.swift */; };
+		1EC7170C2B6093C5006AB2C5 /* EnumBuilder+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC7170B2B6093C5006AB2C5 /* EnumBuilder+Protocol.swift */; };
+		1EC7170E2B60940A006AB2C5 /* FormatBuilder+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC7170D2B60940A006AB2C5 /* FormatBuilder+Protocol.swift */; };
+		1EC717102B609465006AB2C5 /* Format+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC7170F2B609465006AB2C5 /* Format+Protocol.swift */; };
+		1EC717122B6095BB006AB2C5 /* Property+Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC717112B6095BB006AB2C5 /* Property+Enum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +51,36 @@
 		1EC716BA2B606A4F006AB2C5 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		1EC716BC2B606A52006AB2C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EC716BF2B606A52006AB2C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1EC716D22B606C86006AB2C5 /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		1EC716D32B606C87006AB2C5 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		1EC716D42B606C87006AB2C5 /* View+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		1EC716D52B606C87006AB2C5 /* ModelContainer+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ModelContainer+Extension.swift"; sourceTree = "<group>"; };
+		1EC716DA2B606CAB006AB2C5 /* IconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconView.swift; sourceTree = "<group>"; };
+		1EC716DE2B60750B006AB2C5 /* Italicized+Modifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Italicized+Modifier.swift"; sourceTree = "<group>"; };
+		1EC716DF2B60750C006AB2C5 /* Hide+Modifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Hide+Modifier.swift"; sourceTree = "<group>"; };
+		1EC716E22B6075C6006AB2C5 /* Id+Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Id+Protocol.swift"; sourceTree = "<group>"; };
+		1EC716E42B6075FF006AB2C5 /* Enum+Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Enum+Protocol.swift"; sourceTree = "<group>"; };
+		1EC716E62B60762D006AB2C5 /* Pair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pair.swift; sourceTree = "<group>"; };
+		1EC716E92B607713006AB2C5 /* Game+Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Game+Enum.swift"; sourceTree = "<group>"; };
+		1EC716EA2B607713006AB2C5 /* Input+Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Input+Enum.swift"; sourceTree = "<group>"; };
+		1EC716EB2B607713006AB2C5 /* Menu+Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Menu+Enum.swift"; sourceTree = "<group>"; };
+		1EC716EC2B607713006AB2C5 /* Format+Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Format+Enum.swift"; sourceTree = "<group>"; };
+		1EC716EE2B607713006AB2C5 /* PlayStation+Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlayStation+Enum.swift"; sourceTree = "<group>"; };
+		1EC716EF2B607713006AB2C5 /* Xbox+Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Xbox+Enum.swift"; sourceTree = "<group>"; };
+		1EC716F02B607713006AB2C5 /* Nintendo+Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Nintendo+Enum.swift"; sourceTree = "<group>"; };
+		1EC716F12B607713006AB2C5 /* OS+Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OS+Enum.swift"; sourceTree = "<group>"; };
+		1EC716F22B607713006AB2C5 /* Platform+Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Platform+Enum.swift"; sourceTree = "<group>"; };
+		1EC716F42B607713006AB2C5 /* Digital+Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Digital+Enum.swift"; sourceTree = "<group>"; };
+		1EC716F52B607713006AB2C5 /* Physical+Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Physical+Enum.swift"; sourceTree = "<group>"; };
+		1EC716F62B607713006AB2C5 /* Mode+Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Mode+Enum.swift"; sourceTree = "<group>"; };
+		1EC717032B6077FA006AB2C5 /* PropertyBuilder+Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PropertyBuilder+Enum.swift"; sourceTree = "<group>"; };
+		1EC717052B607B3D006AB2C5 /* Property.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+		1EC717072B609031006AB2C5 /* Platform+Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Platform+Protocol.swift"; sourceTree = "<group>"; };
+		1EC717092B6090B4006AB2C5 /* PlatformBuilder+Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlatformBuilder+Enum.swift"; sourceTree = "<group>"; };
+		1EC7170B2B6093C5006AB2C5 /* EnumBuilder+Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnumBuilder+Protocol.swift"; sourceTree = "<group>"; };
+		1EC7170D2B60940A006AB2C5 /* FormatBuilder+Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FormatBuilder+Protocol.swift"; sourceTree = "<group>"; };
+		1EC7170F2B609465006AB2C5 /* Format+Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Format+Protocol.swift"; sourceTree = "<group>"; };
+		1EC717112B6095BB006AB2C5 /* Property+Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Property+Enum.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +114,13 @@
 			isa = PBXGroup;
 			children = (
 				1EC716B62B606A4F006AB2C5 /* autosaveProjectApp.swift */,
-				1EC716B82B606A4F006AB2C5 /* ContentView.swift */,
-				1EC716BA2B606A4F006AB2C5 /* Item.swift */,
+				1EC716DD2B6074FB006AB2C5 /* Modifier */,
+				1EC716CB2B606BC7006AB2C5 /* Struct */,
+				1EC716CA2B606BC3006AB2C5 /* Class */,
+				1EC716C92B606BBE006AB2C5 /* Protocol */,
+				1EC716E82B607713006AB2C5 /* Enum */,
+				1EC716C62B606BA3006AB2C5 /* Extension */,
+				1EC716C72B606BAA006AB2C5 /* View */,
 				1EC716BC2B606A52006AB2C5 /* Assets.xcassets */,
 				1EC716BE2B606A52006AB2C5 /* Preview Content */,
 			);
@@ -68,6 +133,103 @@
 				1EC716BF2B606A52006AB2C5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1EC716C62B606BA3006AB2C5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1EC716D22B606C86006AB2C5 /* Date+Extension.swift */,
+				1EC716D52B606C87006AB2C5 /* ModelContainer+Extension.swift */,
+				1EC716D32B606C87006AB2C5 /* String+Extension.swift */,
+				1EC716D42B606C87006AB2C5 /* View+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1EC716C72B606BAA006AB2C5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1EC716DA2B606CAB006AB2C5 /* IconView.swift */,
+				1EC716B82B606A4F006AB2C5 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1EC716C92B606BBE006AB2C5 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				1EC716E22B6075C6006AB2C5 /* Id+Protocol.swift */,
+				1EC716E42B6075FF006AB2C5 /* Enum+Protocol.swift */,
+				1EC717072B609031006AB2C5 /* Platform+Protocol.swift */,
+				1EC7170B2B6093C5006AB2C5 /* EnumBuilder+Protocol.swift */,
+				1EC7170F2B609465006AB2C5 /* Format+Protocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		1EC716CA2B606BC3006AB2C5 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				1EC716BA2B606A4F006AB2C5 /* Item.swift */,
+				1EC717052B607B3D006AB2C5 /* Property.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		1EC716CB2B606BC7006AB2C5 /* Struct */ = {
+			isa = PBXGroup;
+			children = (
+				1EC716E62B60762D006AB2C5 /* Pair.swift */,
+			);
+			path = Struct;
+			sourceTree = "<group>";
+		};
+		1EC716DD2B6074FB006AB2C5 /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				1EC716DF2B60750C006AB2C5 /* Hide+Modifier.swift */,
+				1EC716DE2B60750B006AB2C5 /* Italicized+Modifier.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
+		1EC716E82B607713006AB2C5 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				1EC717092B6090B4006AB2C5 /* PlatformBuilder+Enum.swift */,
+				1EC7170D2B60940A006AB2C5 /* FormatBuilder+Protocol.swift */,
+				1EC717032B6077FA006AB2C5 /* PropertyBuilder+Enum.swift */,
+				1EC717112B6095BB006AB2C5 /* Property+Enum.swift */,
+				1EC716EC2B607713006AB2C5 /* Format+Enum.swift */,
+				1EC716F22B607713006AB2C5 /* Platform+Enum.swift */,
+				1EC716F32B607713006AB2C5 /* Format */,
+				1EC716ED2B607713006AB2C5 /* Platform */,
+				1EC716F62B607713006AB2C5 /* Mode+Enum.swift */,
+				1EC716E92B607713006AB2C5 /* Game+Enum.swift */,
+				1EC716EA2B607713006AB2C5 /* Input+Enum.swift */,
+				1EC716EB2B607713006AB2C5 /* Menu+Enum.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		1EC716ED2B607713006AB2C5 /* Platform */ = {
+			isa = PBXGroup;
+			children = (
+				1EC716EE2B607713006AB2C5 /* PlayStation+Enum.swift */,
+				1EC716EF2B607713006AB2C5 /* Xbox+Enum.swift */,
+				1EC716F02B607713006AB2C5 /* Nintendo+Enum.swift */,
+				1EC716F12B607713006AB2C5 /* OS+Enum.swift */,
+			);
+			path = Platform;
+			sourceTree = "<group>";
+		};
+		1EC716F32B607713006AB2C5 /* Format */ = {
+			isa = PBXGroup;
+			children = (
+				1EC716F42B607713006AB2C5 /* Digital+Enum.swift */,
+				1EC716F52B607713006AB2C5 /* Physical+Enum.swift */,
+			);
+			path = Format;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +302,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EC717062B607B3D006AB2C5 /* Property.swift in Sources */,
+				1EC7170E2B60940A006AB2C5 /* FormatBuilder+Protocol.swift in Sources */,
+				1EC716E52B6075FF006AB2C5 /* Enum+Protocol.swift in Sources */,
+				1EC716E02B60750C006AB2C5 /* Italicized+Modifier.swift in Sources */,
 				1EC716B92B606A4F006AB2C5 /* ContentView.swift in Sources */,
+				1EC716FE2B607713006AB2C5 /* OS+Enum.swift in Sources */,
+				1EC716E72B60762D006AB2C5 /* Pair.swift in Sources */,
+				1EC716FF2B607713006AB2C5 /* Platform+Enum.swift in Sources */,
+				1EC716D92B606C87006AB2C5 /* ModelContainer+Extension.swift in Sources */,
+				1EC716D62B606C87006AB2C5 /* Date+Extension.swift in Sources */,
+				1EC716E12B60750C006AB2C5 /* Hide+Modifier.swift in Sources */,
+				1EC716F82B607713006AB2C5 /* Input+Enum.swift in Sources */,
 				1EC716BB2B606A4F006AB2C5 /* Item.swift in Sources */,
+				1EC7170C2B6093C5006AB2C5 /* EnumBuilder+Protocol.swift in Sources */,
+				1EC717012B607713006AB2C5 /* Physical+Enum.swift in Sources */,
+				1EC716FA2B607713006AB2C5 /* Format+Enum.swift in Sources */,
+				1EC717022B607713006AB2C5 /* Mode+Enum.swift in Sources */,
+				1EC716D72B606C87006AB2C5 /* String+Extension.swift in Sources */,
+				1EC716FC2B607713006AB2C5 /* Xbox+Enum.swift in Sources */,
+				1EC716FB2B607713006AB2C5 /* PlayStation+Enum.swift in Sources */,
+				1EC7170A2B6090B4006AB2C5 /* PlatformBuilder+Enum.swift in Sources */,
+				1EC716FD2B607713006AB2C5 /* Nintendo+Enum.swift in Sources */,
+				1EC717102B609465006AB2C5 /* Format+Protocol.swift in Sources */,
+				1EC716DB2B606CAB006AB2C5 /* IconView.swift in Sources */,
+				1EC717082B609031006AB2C5 /* Platform+Protocol.swift in Sources */,
+				1EC716F72B607713006AB2C5 /* Game+Enum.swift in Sources */,
+				1EC716E32B6075C6006AB2C5 /* Id+Protocol.swift in Sources */,
+				1EC716D82B606C87006AB2C5 /* View+Extension.swift in Sources */,
 				1EC716B72B606A4F006AB2C5 /* autosaveProjectApp.swift in Sources */,
+				1EC717122B6095BB006AB2C5 /* Property+Enum.swift in Sources */,
+				1EC717002B607713006AB2C5 /* Digital+Enum.swift in Sources */,
+				1EC716F92B607713006AB2C5 /* Menu+Enum.swift in Sources */,
+				1EC717042B6077FA006AB2C5 /* PropertyBuilder+Enum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
