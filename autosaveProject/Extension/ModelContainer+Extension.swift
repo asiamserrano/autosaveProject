@@ -12,7 +12,7 @@ extension ModelContainer {
     
     private convenience init(memory: Bool) {
         do {
-            let schema = Schema([ Item.self ])
+            let schema = Schema([ Item.self, Property.self ])
             let config: ModelConfiguration = .init(schema: schema, isStoredInMemoryOnly: memory)
             try self.init(for: schema, configurations: [config])
         } catch {

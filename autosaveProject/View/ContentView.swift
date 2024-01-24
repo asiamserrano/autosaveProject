@@ -9,14 +9,16 @@ import SwiftUI
 import SwiftData
 
 struct ContentView: View {
-//    @Environment(\.modelContext) private var modelContext
-//    @Query private var items: [Item]
+    
+    @Environment(\.modelContext) private var modelContext
+    
+    @Query private var items: [Property]
 
     var body: some View {
         NavigationStack {
             List {
-                ForEach(PropertyBuilderEnum.all) { item in
-                    Text("key: \(item.key) | value: \(item.value)")
+                ForEach(self.items) { item in
+                    Text(item.toString)
                 }
             }
         }
@@ -25,6 +27,24 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
-//        .modelContainer(for: Item.self, inMemory: true)
+    
+    let previewModelContainer: ModelContainer = {
+        let container: ModelContainer = .preview
+        
+        var props: [Property] = [
+            .mode(.single),
+            .input(.genre, "my Genre"),
+            .format(.digital),
+            .format(.digital(.steam)),
+            .platform(.nintendo),
+            .platform(.nintendo(.snes))
+        ]
+        
+        props.forEach { container.mainContext.insert($0) }
+        
+        return container
+    }()
+    
+    return ContentView()
+        .modelContainer(previewModelContainer)
 }

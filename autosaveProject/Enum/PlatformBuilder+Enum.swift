@@ -25,7 +25,7 @@ public enum PlatformBuilderEnum: EnumBuilderProtocol {
     case playstation(PlayStationEnum)
     case xbox(XboxEnum)
     
-    public var pair: Pair {
+    public var child: Pair {
         switch self {
         case .nintendo(let n):
             return .init(key: n.key, value: n.value)
@@ -36,6 +36,19 @@ public enum PlatformBuilderEnum: EnumBuilderProtocol {
         case .xbox(let x):
             return .init(key: x.key, value: x.value)
         }
+    }
+    
+    public var parent: Pair {
+        var platform: PlatformEnum {
+            switch self {
+            case .nintendo(_): return .nintendo
+            case .os(_): return .os
+            case .playstation(_): return .playstation
+            case .xbox(_): return .xbox
+            }
+        }
+        
+        return .init(key: platform.key, value: platform.value)
     }
     
 }

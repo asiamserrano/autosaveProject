@@ -8,23 +8,20 @@
 import Foundation
 
 public protocol EnumBuilderProtocol: EnumProtocol {
-    
-    var pair: Pair { get }
+        
+    var child: Pair { get }
+    var parent: Pair { get }
     
 }
 
 extension EnumBuilderProtocol {
     
     public func hash(into hasher: inout Hasher) {
-        hasher.combine(self.className)
-        hasher.combine(self.pair)
+        hasher.combine(self.parent)
+        hasher.combine(self.child)
     }
     
-    public var pair: Pair {
-        .init(key: self.key, value: self.value)
-    }
-    
-    public var key: String { self.pair.key }
-    public var value: String { self.pair.value }
+    public var key: String { self.parent.key }
+    public var value: String { self.parent.value }
     
 }

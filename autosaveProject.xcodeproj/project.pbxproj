@@ -42,6 +42,8 @@
 		1EC7170E2B60940A006AB2C5 /* FormatBuilder+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC7170D2B60940A006AB2C5 /* FormatBuilder+Protocol.swift */; };
 		1EC717102B609465006AB2C5 /* Format+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC7170F2B609465006AB2C5 /* Format+Protocol.swift */; };
 		1EC717122B6095BB006AB2C5 /* Property+Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC717112B6095BB006AB2C5 /* Property+Enum.swift */; };
+		1EC717142B61AA04006AB2C5 /* Association.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC717132B61AA04006AB2C5 /* Association.swift */; };
+		1EC717162B61AA41006AB2C5 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC717152B61AA41006AB2C5 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +83,8 @@
 		1EC7170D2B60940A006AB2C5 /* FormatBuilder+Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FormatBuilder+Protocol.swift"; sourceTree = "<group>"; };
 		1EC7170F2B609465006AB2C5 /* Format+Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Format+Protocol.swift"; sourceTree = "<group>"; };
 		1EC717112B6095BB006AB2C5 /* Property+Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Property+Enum.swift"; sourceTree = "<group>"; };
+		1EC717132B61AA04006AB2C5 /* Association.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Association.swift; sourceTree = "<group>"; };
+		1EC717152B61AA41006AB2C5 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,8 +174,10 @@
 		1EC716CA2B606BC3006AB2C5 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				1EC717132B61AA04006AB2C5 /* Association.swift */,
 				1EC716BA2B606A4F006AB2C5 /* Item.swift */,
 				1EC717052B607B3D006AB2C5 /* Property.swift */,
+				1EC717152B61AA41006AB2C5 /* Game.swift */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -317,6 +323,8 @@
 				1EC716BB2B606A4F006AB2C5 /* Item.swift in Sources */,
 				1EC7170C2B6093C5006AB2C5 /* EnumBuilder+Protocol.swift in Sources */,
 				1EC717012B607713006AB2C5 /* Physical+Enum.swift in Sources */,
+				1EC717142B61AA04006AB2C5 /* Association.swift in Sources */,
+				1EC717162B61AA41006AB2C5 /* Game.swift in Sources */,
 				1EC716FA2B607713006AB2C5 /* Format+Enum.swift in Sources */,
 				1EC717022B607713006AB2C5 /* Mode+Enum.swift in Sources */,
 				1EC716D72B606C87006AB2C5 /* String+Extension.swift in Sources */,

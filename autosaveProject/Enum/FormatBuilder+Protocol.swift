@@ -21,13 +21,24 @@ public enum FormatBuilderEnum: EnumBuilderProtocol {
     case digital(DigitalEnum)
     case physical(PhysicalEnum)
     
-    public var pair: Pair {
+    public var child: Pair {
         switch self {
         case .digital(let d):
             return .init(key: d.key, value: d.value)
         case .physical(let p):
             return .init(key: p.key, value: p.value)
         }
+    }
+    
+    public var parent: Pair {
+        var format: FormatEnum {
+            switch self {
+            case .digital(_): return .digital
+            case .physical(_): return .physical
+            }
+        }
+        
+        return .init(key: format.key, value: format.value)
     }
     
 }
